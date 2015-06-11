@@ -1,0 +1,3 @@
+== Blogger
+
+Simple rails application, simulates basic functionality of Twitter.
