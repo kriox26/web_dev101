@@ -36,8 +36,8 @@ $(document).ready(function(){
 
 function numberSquares(){
 	x = prompt("Squares per side ? (1-64)");
-	if(x < 0){
-		x = prompt("The number must be higher than 0!");
+	if(x < 0 || x > 64){
+		x = prompt("The number must be higher than 0 and less than 64!");
 	}
 	$(".square").remove();
 	return x;
