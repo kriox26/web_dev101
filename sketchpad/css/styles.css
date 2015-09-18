@@ -31,7 +31,7 @@
 		padding: 10px;
 	}
 /*Grid system*/
-	.wrapper{
+	#wrapper{
 		height:960px;
 		width:960px;
 		margin-left:auto;
@@ -62,10 +62,3 @@
 	i{
 		color: #909090;
 	}
-
-
-
-
-
-
-

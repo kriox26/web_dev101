@@ -46,7 +46,7 @@ function numberSquares(){
 function buildGrid(size){
 	box = Math.floor(960 / size);
 	for (var i = 0; i < (size*size); i++) {
-		$(".wrapper").append('<div class="square"></div>');
+		$("#wrapper").append('<div class="square"></div>');
 	};
 	$(".square").css("width",box);
 	$(".square").css("height",box);
